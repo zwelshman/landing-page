@@ -325,7 +325,7 @@ export default function Home() {
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a
-                  href="mailto:hello@healthdatasci.com"
+                  href="mailto:zmswelshman@gmail.com"
                   className="px-8 py-4 rounded-full animated-gradient font-semibold text-lg hover:opacity-90 transition-opacity flex items-center gap-2 group"
                 >
                   <Mail className="w-5 h-5" />
