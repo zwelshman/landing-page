@@ -76,8 +76,7 @@ const clients = [
 const stats = [
   { value: '8+', label: 'Years Experience' },
   { value: '50M+', label: 'Patient Records Processed' },
-  { value: '15+', label: 'Research Publications' },
-  { value: '100%', label: 'Project Success Rate' }
+  { value: '6', label: 'Contrubuted to Research Publications' }
 ]
 
 const credentials = [
@@ -88,16 +87,28 @@ const credentials = [
     description: 'Doctoral research applying deep learning to diagnostic imaging challenges'
   },
   {
+    icon: Hammer,
+    title: 'NHS England',
+    subtitle: 'Intersection of Cardiology and Cancer Reseach',
+    description: 'Developing Cardio-oncology data analysis services'
+  },
+  {
     icon: Building,
     title: 'NHS Digital',
-    subtitle: 'Senior Data Scientist',
+    subtitle: 'Data Scientist',
     description: 'Worked at the heart of NHS data infrastructure and national datasets'
   },
   {
     icon: Heart,
     title: 'BHF Data Science Centre',
-    subtitle: 'Technical Lead',
+    subtitle: 'Leading High Value Technical Initatives',
     description: 'Leading cardiovascular research data science initiatives'
+  },
+  {
+    icon: Engineer,
+    title: 'Johnson and Johnson, Depuy Synthes',
+    subtitle: 'Biomedical Engineering',
+    description: 'Enhanching the usability of Surgical Instruments'
   }
 ]
 
@@ -117,7 +128,7 @@ export default function Home() {
               <div className="w-10 h-10 rounded-lg animated-gradient flex items-center justify-center">
                 <Activity className="w-6 h-6 text-white" />
               </div>
-              <span className="font-bold text-lg">HealthDataSci</span>
+              <span className="font-bold text-lg">Zach Welshman, PhD</span>
             </div>
             <div className="hidden md:flex items-center gap-8">
               <a href="#expertise" className="text-gray-300 hover:text-white transition-colors">Expertise</a>
