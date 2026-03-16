@@ -20,7 +20,7 @@ import {
   GraduationCap,
   Building,
   Hammer,
-  Engineer,
+  Toolbox,
   Mail,
   ArrowRight,
   Sparkles,
@@ -107,7 +107,7 @@ const credentials = [
     description: 'Leading cardiovascular research data science initiatives'
   },
   {
-    icon: Engineer,
+    icon: Toolbox,
     title: 'Johnson and Johnson, Depuy Synthes',
     subtitle: 'Biomedical Engineering',
     description: 'Enhanching the usability of Surgical Instruments'
