@@ -78,7 +78,8 @@ const clients = [
 const stats = [
   { value: '8+', label: 'Years Experience' },
   { value: '50M+', label: 'Patient Records Processed' },
-  { value: '6', label: 'Contrubuted to Research Publications' }
+  { value: '6', label: 'Contributed to Research Publications' },
+  { value: 'Always', label: 'Delivering Value to the Health Research in the UK' }
 ]
 
 const credentials = [
@@ -365,10 +366,10 @@ export default function Home() {
               <div className="w-8 h-8 rounded-lg animated-gradient flex items-center justify-center">
                 <Activity className="w-4 h-4 text-white" />
               </div>
-              <span className="font-bold">HealthDataSci</span>
+              <span className="font-bold">Zach Welshman, PhD</span>
             </div>
             <div className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Health Data Science Consulting. All rights reserved.
+              © {new Date().getFullYear()} Zach Welshman, PhD.
             </div>
           </div>
         </div>
