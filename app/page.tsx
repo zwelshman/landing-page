@@ -20,6 +20,7 @@ import {
   GraduationCap,
   Building,
   Hammer,
+  Engineer,
   Mail,
   ArrowRight,
   Sparkles,
