@@ -36,15 +36,15 @@ const expertise = [
   },
   {
     icon: Code2,
-    title: 'Clinical Coding Mastery',
-    description: 'Comprehensive fluency across the full spectrum of clinical coding systems used in UK healthcare. I help teams navigate the complexities of mapping between vocabularies and building accurate clinical phenotypes.',
+    title: 'Application of clinical terminologies',
+    description: 'Comprehensive understanding across the major clinical coding systems used in UK healthcare. I help teams navigate the complexities of mapping between vocabularies and building clinical phenotypes.',
     highlights: ['ICD-10', 'OPCS-4', 'Read v2', 'SNOMED CT']
   },
   {
     icon: Lock,
     title: 'Secure Research Environments',
     description: 'Practical, hands-on experience working within the UK\'s leading trusted research environments. I understand the unique constraints and opportunities of working with sensitive health data under strict governance frameworks.',
-    highlights: ['SAIL Databank', 'NHS SDE', 'OpenSAFELY', 'HIC']
+    highlights: ['SAIL Databank', 'NHS SDE']
   },
   {
     icon: Workflow,
@@ -64,7 +64,7 @@ const clients = [
   {
     icon: Rocket,
     title: 'Health Tech Startups',
-    description: 'Strategic and technical guidance for companies building innovative products on administrative health data. From feasibility assessments to production-ready data pipelines, I help startups navigate the unique challenges of healthcare data.',
+    description: 'Strategic and technical guidance for companies building innovative products on administrative health data. From feasibility assessments to production-ready data pipelines, I help organistations navigate the unique challenges of healthcare data.',
     examples: ['Product development', 'Data strategy', 'Technical architecture']
   },
   {
@@ -78,7 +78,7 @@ const clients = [
 const stats = [
   { value: '8+', label: 'Years Experience' },
   { value: '50M+', label: 'Patient Records Processed' },
-  { value: '6', label: 'Contributed to Research Publications' },
+  { value: 'Multiple', label: 'Contributions to Research Publications' },
   { value: 'Always', label: 'Delivering Value to the Health Research in the UK' }
 ]
 
