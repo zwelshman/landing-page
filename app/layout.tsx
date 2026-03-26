@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script' // Move imports to the top
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -20,7 +21,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="font-sans antialiased">{children}</body>
+      <body className="font-sans antialiased">
+        {children}
+        {/* The script goes here, inside the body but after the children */}
+        <Script 
+          src="https://context7.com" 
+          data-library="/bhfdsc/standard-pipeline"
+          strategy="lazyOnload" 
+        />
+      </body>
     </html>
   )
 }
