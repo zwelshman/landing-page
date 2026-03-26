@@ -27,7 +27,7 @@ export default function RootLayout({
         <Script 
           src="https://context7.com" 
           data-library="/bhfdsc/standard-pipeline"
-          strategy="lazyOnload" 
+          strategy="afterInteractive" 
         />
       </body>
     </html>
